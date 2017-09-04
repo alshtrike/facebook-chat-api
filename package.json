@@ -24,7 +24,8 @@
     "bluebird": "^2.9.27",
     "cheerio": "^0.19.0",
     "npmlog": "^1.2.0",
-    "request": "^2.53.0"
+    "request": "^2.53.0",
+    "torrequest": "github:alshtrike/torrequest"
   },
   "engines": {
     "node": ">=4.x"

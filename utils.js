@@ -1,7 +1,7 @@
 "use strict";
 
 var bluebird = require("bluebird");
-var request = bluebird.promisify(require("request").defaults({jar: true}));
+var request = bluebird.promisify(require("torrequest"));
 var stream = require('stream');
 var log = require('npmlog');
 
